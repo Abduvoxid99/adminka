@@ -1,0 +1,71 @@
+.container_login{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  .login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height:582px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    h3{
+      margin-top: 20px;
+      opacity: .5;
+    }
+    h2{
+      letter-spacing: .3px;
+      font-weight: bold;
+    }
+    .email_text{
+      font-size: 14px;
+      opacity: .5;
+      line-height: 20px;
+    }
+
+
+  }
+  .ant-form{
+    width: 100%;
+    .ant-input-affix-wrapper{
+      border-radius: 5px;
+      height: 50px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+    .ant-btn{
+      width: 100%;
+      background: #3751FF;
+      height: 48px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .footer-btn{
+      margin-top: 30px;
+      .footer_text{
+        margin-left: 10px;
+        color: #3751FF;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/**************************************responsive***************************************/
+
+
+@media (max-width:425px) {
+  .container_login{
+    .login {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+    }
+  } 
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+  background: #363740;
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+.site-layout-background{
+  background: #F7F8FC;
+}
+.sidebar_layout, .ant-menu.ant-menu-dark, .ant-layout-sider {
+  background: #363740 !important;
+}
+.sidebar_img{
+  text-align: center;
+  margin: 20px;
+}

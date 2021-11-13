@@ -1,0 +1,74 @@
+
+.ant-table-cell-fix-right-first{
+    text-align: center;
+    p{
+        cursor: pointer;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+}
+
+.dataTable{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+}
+
+.buttons{
+    float: right;
+}
+
+.my_btn, .blue_btn, .red_btn, .modal_btn, .modal_btn_red{
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100px;
+
+}
+
+.red_btn, .modal_btn_red{
+    background-image: linear-gradient(#ea0d5a, #ea0d2e);
+}
+
+
+@media (max-width: 767px) {
+    .ant-modal {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        top: 0 !important;
+        bottom: 0;
+        transform-origin: 0 !important;
+        max-width: 100% !important;
+        .ant-modal-content{
+            height: 100vh;
+        }
+    }
+
+}
+
+@media (max-width: 450px) {
+    .my_btn{
+        margin-top: 50px;
+    }
+    .blue_btn, .red_btn{
+        margin:0;
+        padding: 0;
+        width: 60px;
+        height: 30px;
+    }
+    .red_btn{
+        margin-left: 10px;
+    }
+}
